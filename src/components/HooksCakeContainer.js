@@ -1,3 +1,4 @@
+//accessing state via useSelector() hook and dispatching action via useDispatch() hook
 import React from 'react';
 import { useSelector,useDispatch } from 'react-redux';
 import { buyCake } from '../redux';

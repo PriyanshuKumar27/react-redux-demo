@@ -1,3 +1,4 @@
+//accessing state and dispatching action via connect function
 import React from 'react';
 import { connect } from 'react-redux';
 import { buyCake } from '../redux';

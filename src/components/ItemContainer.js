@@ -1,8 +1,10 @@
+//ownProps in mapStateToProps, reusing component ItemContainer based on props received from parent component
 import React from 'react';
 import { connect } from 'react-redux';
 import { buyCake, buyIceCream } from '../redux';
 
 function ItemContainer(props) {
+  console.log(props)
   return (
     <div>
         <h2>Item - {props.item}</h2>
@@ -11,6 +13,7 @@ function ItemContainer(props) {
   )
 }
 
+//Here, second paramter is its own prop i.e. components prop, which by convention is referred to as ownProps
 const mapStateToProps = (state, ownProps) =>{
   const itemState = ownProps.cake 
   ? state.cake.numOfCakes 

@@ -1,3 +1,4 @@
+// combineReducers with connect function implementation for accesing state and acton creator
 import React from 'react';
 import { connect } from 'react-redux';
 import { buyIceCream } from '../redux';
