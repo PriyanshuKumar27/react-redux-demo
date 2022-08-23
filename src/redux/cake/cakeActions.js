@@ -6,3 +6,4 @@ export const buyCake = (number = 1) =>{//default value = 1
         payload : number
     }
 }
+//we are exporting action creators from index.js
