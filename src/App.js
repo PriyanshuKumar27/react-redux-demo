@@ -5,6 +5,7 @@ import HooksCakeContainer from './components/HooksCakeContainer';
 import IceCreamContainer from './components/IceCreamContainer';
 import ItemContainer from './components/ItemContainer';
 import NewCakeContainer from './components/NewCakeContainer.js';
+import UserContainer from './components/UserContainer';
 import store from './redux/store';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <NewCakeContainer/>
         <ItemContainer cake/>
         <ItemContainer/>
+        <UserContainer/>
       </div>
     </Provider>
   );
